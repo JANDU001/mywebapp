@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-    <form action="processes/AuthRegistration.php" method="post">
+    <form action="processes/AutRegistration.php" method="post">
         <!--form  for Author details -->
         AuthorFullName: <input type="text" name="AuthorFullName"><br>
         AuthorEmail: <input type="text" name="AuthorEmail"><br>
