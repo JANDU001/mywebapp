@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Styling for index.php */
+body.index {
+    background-image: url('images/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+
+.header {
+    color: white;
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold; /* Make the text bold */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black; /* Set the text color to black for better visibility */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Styling for ViewAuthors.php */
+body.view-authors {
+    background-image: url('images/img2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    color: white;
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold; /* Make the text bold */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(130, 50, 50, 0.8);
+    color: black; /* Set the text color to black for better visibility */
+    font-weight: bold; /* Make the text bold */
+}

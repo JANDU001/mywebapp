@@ -1,8 +1,9 @@
+// processes/AutRegistration.php
 <?php
 require_once '../configs/DbConn.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Retrieve data
+    // Retrieve form data
     $authorFullName = $_POST['AuthorFullName'];
     $authorEmail = $_POST['AuthorEmail'];
     $authorAddress = $_POST['AuthorAddress'];
@@ -15,6 +16,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                               VALUES (?, ?, ?, ?, ?, ?)");
 
     $stmt->execute([$authorFullName, $authorEmail, $authorAddress, $authorBiography, $authorDateOfBirth, $authorSuspended]);
-    // Redirect or display success message
+
+    header("Location: ../ViewAuthors.php");
+   
+    exit();
+    
 }
 ?>
