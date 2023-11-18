@@ -6,6 +6,7 @@
     <title>Delete Author</title>
 </head>
 <body>
+    
     <h2>Delete Author</h2>
     <?php include 'navbar.php'; ?>
     <?php

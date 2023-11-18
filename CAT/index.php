@@ -49,6 +49,10 @@
 
         <input type="submit" value="Submit">
     </form>
+
+    <div class="footer">
+  copyright &copy; @JANET 2023
+</div>
         
         <script src="" async defer></script>
     </body>
