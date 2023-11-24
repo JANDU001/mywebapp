@@ -6,7 +6,15 @@
         <title>Author Registration</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+            body {
+                 background-image: url('images/author-image.jpg');
+                }
+        </style>
     </head>
     <body class="index">
     <?php include 'navbar.php'; ?>
@@ -25,30 +33,32 @@
 
     
 </div>  
+<form class="mt-4" action="processes/AutRegistration.php" method="post">
+    
 
-    <form action="processes/AutRegistration.php" method="post">
-        <!--form  for Author details -->
-  
-        <label for="AuthorFullName">AuthorFullName:</label><br>
-    <input type="text" name="AuthorFullName" id="AuthorFullName" placeholder="Enter the Author FullName" maxlength="50" required /><br><br>
+   
+    <label for="AuthorFullName" class="form-label">Author Full Name:</label>
+    <input type="text" name="AuthorFullName" id="AuthorFullName" class="form-control" placeholder="Enter the Author Full Name" maxlength="50" required>
 
-    <label for="AuthorEmail">AuthorEmail</label><br>
-    <input type="email" name="AuthorEmail" id="AuthorEmail" placeholder="Enter the Author Email" maxlength="50" /><br><br>
+    <label for="AuthorEmail" class="form-label">Author Email:</label>
+    <input type="email" name="AuthorEmail" id="AuthorEmail" class="form-control" placeholder="Enter the Author Email" maxlength="50">
 
-    <label for="AuthorAddress">AuthorAddress:</label><br>
-    <input type="text" name="AuthorAddress" id="AuthorAddress" placeholder="Enter the AuthorAddress" maxlength="60" required /><br><br>
-     
-    <label for="AuthorBiography">AuthorBiography:</label><br>
-    <textarea name="text" name="AuthorBiography" id="AuthorBiography" placeholder="Enter the AuthorBiography" rows="10" required></textarea><br><br>
+    <label for="AuthorAddress" class="form-label">Author Address:</label>
+    <input type="text" name="AuthorAddress" id="AuthorAddress" class="form-control" placeholder="Enter the Author Address" maxlength="60" required>
 
-    <label for="AAuthorDateOfBirth">AuthorDateOfBirth:</label><br>
-    <input type="date" name="AuthorDateOfBirth" id="AuthorDateOfBirth" placeholder="Enter the AuthorDateOfBirth" maxlength="20" required /><br><br>
+    <label for="AuthorBiography" class="form-label">Author Biography:</label>
+    <textarea name="AuthorBiography" id="AuthorBiography" class="form-control" placeholder="Enter the Author Biography" rows="5" required></textarea>
 
-    <label for="AuthorSuspended">AuthorSuspended:</label><br>
-    <input type="checkbox" name="AuthorSuspended"/><br><br>
+    <label for="AuthorDateOfBirth" class="form-label">Author Date of Birth:</label>
+    <input type="date" name="AuthorDateOfBirth" id="AuthorDateOfBirth" class="form-control" placeholder="Enter the Author Date of Birth" maxlength="20" required>
 
-        <input type="submit" value="Submit">
-    </form>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="AuthorSuspended" name="AuthorSuspended">
+        <label class="form-check-label" for="AuthorSuspended">Author Suspended</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
 
     <div class="footer">
   copyright &copy; @JANET 2023
