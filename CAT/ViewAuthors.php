@@ -8,14 +8,10 @@
     <title>Author</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   
+    <link rel="stylesheet" href="css/style.css" />
 
-    <style>
-    table, th, td {
-        border: 1px solid #ddd;
-        padding: 8px;
-    }
-</style>
+    
+
 
 
 </head>
