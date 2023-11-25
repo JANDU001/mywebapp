@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" href="css/formstyle.css" />
     
 
 
@@ -75,7 +75,7 @@
     </tbody>
 </table>
         
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-2OQ27QsLc7FqH6d77YbVRNwlGY/NK/h3bG3jcgM6yY8A" crossorigin="anonymous"></script>
     <script src="" async defer></script>
 </body>
 </html>

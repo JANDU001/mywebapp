@@ -11,11 +11,10 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css" />
-        <style>
-            body {
-                 background-image: url('images/author-image.jpg');
-                }
-        </style>
+        
+       <link rel="stylesheet" href="css/formstyle.css" />
+
+
     </head>
     <body class="index">
     <?php include 'navbar.php'; ?>
@@ -64,7 +63,7 @@
     <div class="footer">
   copyright &copy; @JANET 2023
 </div>
-        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-2OQ27QsLc7FqH6d77YbVRNwlGY/NK/h3bG3jcgM6yY8A" crossorigin="anonymous"></script> 
         <script src="" async defer></script>
     </body>
 </html>

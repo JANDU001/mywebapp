@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <title>Edit Author</title>
     <link rel="stylesheet" href="css/style.css" />
-    
+    <link rel="stylesheet" href="css/formstyle.css" />
 </head>
-<body>
+<body class="edit-authors">
     <h2>Edit Author</h2>
     <?php include 'navbar.php'; ?>
     <?php
@@ -70,7 +70,7 @@
         <label for="newAuthorDateOfBirth">New Author Date of Birth:</label><br>
         <input type="date" name="newAuthorDateOfBirth" value="<?= $author['AuthorDateOfBirth'] ?>" required><br>
 
-        <button type="submit">Update</button>
+        <button type="submit" class="btn btn-primary mt-3">Update</button>
     </form>
 
     <p><a href="ViewAuthors.php">Back to View Authors</a></p>
